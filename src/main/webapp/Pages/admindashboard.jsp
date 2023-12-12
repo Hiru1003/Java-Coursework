@@ -6,24 +6,24 @@
 <div class="Layoutmaincontainer">
       <div class="Layoutcontainer">
         <div class="Layoutcontainer1 flex flex-col items-start">
-          <img src="assests/logo.png" style="width: 60%; height: auto;" />
+          <img src="assests/logo.png" style="width: 70%; height: auto; padding-left:35px;" />
           <br />
           <br />
           <br />
 
-          <a href="/adminneworders">
+          <a href="/Pages/adminneworders" style="text-decoration: none;">
             <div class="Layoutcolumn lg:w-1/4 rounded-md"}>New Orders</div>
           </a>
           <br />
-          <a href="/admindashboard">
+          <a href="/admindashboard" style="text-decoration: none;">
             <div class="Layoutcolumn lg:w-1/4 rounded-md"}>Dashboard</div>
           </a>
           <br />
-          <a href="/meat">
+          <a href="/meat" style="text-decoration: none;">
             <div class="Layoutcolumn lg:w-1/4 rounded-md"}>Order Recived</div>
           </a>
           <br />
-          <a href="/adminproduct">
+          <a href="/adminproduct" style="text-decoration: none;">
             <div class="Layoutcolumn lg:w-1/4 rounded-md"}>Products</div>
           </a>
         </div>
@@ -48,12 +48,12 @@
 
                   <div class="maincontainer">
                   <div class="cardscontainer">
-                  <div class="cards rounded-md">
+                  <div class="cards">
                       <div class="body">
                       Total Orders   <br/><br/>
                       404
                           <div class="displayicon">
-                          <a href="/cart" class="text-text-100 justify-center mr-6">
+                          <a href="/cart" style="text-align: center; margin-right: 4px;">
                           <PiShoppingCartFill  size={100} style="color: #7BCE8D;/>
                           </a>
                           </div>
@@ -61,12 +61,12 @@
                       </div>
                   </div>
 
-                      <div class="cards rounded-md">
+                      <div class="cards">
                       <div class="body">
                       Total Customers<br/><br/>
                       404
                           <div class="displayicon">
-                          <a href="/cart" class="text-text-100 justify-center mr-6">
+                          <a href="/cart" style="text-align: center; margin-right: 4px;">
                           <IoIosPeople  size={110} style="color: #7BCE8D;/>
                           </a>
                           </div>
@@ -76,12 +76,12 @@
                   </div>
 
                   <div class="cardscontainer">
-                      <div class="cards rounded-md">
+                      <div class="cards">
                       <div class="body"">
                       Total Branches<br/><br/>
                       404
                           <div class="displayicon">
-                          <a href="/cart" class="text-text-100 justify-center mr-6">
+                          <a href="/cart" style="text-align: center; margin-right: 4px;">
                           <HiHome  size={100}  style="color: #7BCE8D;/>
                           </a>
                           </div>
@@ -89,12 +89,12 @@
                       </div>
 
                       </div>
-                      <div class="cards rounded-md">
+                      <div class="cards">
                       <div class="body">
                       Total Turnovers<br/><br/>
                       404
                           <div class="displayicon">
-                          <a href="/cart" class="text-text-100 justify-center mr-6">
+                          <a href="/cart" style="text-align: center; margin-right: 4px;">
                           <TbTruckReturn  size={100} style="color: #7BCE8D;/>
                           </a>
                           </div>

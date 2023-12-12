@@ -1,5 +1,6 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<jsp:include page="/Pages/admindashboard.jsp" />
 </body>
 </html>
+

@@ -1,0 +1,149 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.Layoutcontainer {
+  @apply hidden lg:block h-screen;
+  display: grid;
+  grid-template-columns: 35% 180%;
+  background-color: #fcfffa;
+  position: relative;
+  padding-left: 3%;
+  padding-right: 45%;
+  overflow: hidden;
+  width: 100%;
+}
+.Layoutcontainer1 {
+  @apply flex flex-col items-start;
+  position: relative;
+  width: 87%;
+  height: 150%;
+  overflow: hidden;
+  padding-bottom: 6%;
+  padding-top: 20%;
+  margin-left: 12%;
+  margin-right: 2.5%;
+  box-shadow: 5px 0 5px -5px rgba(0, 0, 0.5, 0.5);
+}
+.Layoutcontainer2 {
+  @apply flex flex-col items-start;
+  width: 90%;
+  overflow: hidden;
+  background-color: #fcfffa;
+  height: auto;
+}
+.Layoutcolumn {
+  @apply rounded-md;
+  height: 85%;
+  color: black;
+  margin-top: 2%;
+  color: #191d1c;
+  font-size: 100%;
+  overflow: hidden;
+  width: 160%;
+  max-width: 190px;
+  min-width: 120px;
+  margin: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+.pbody{
+    padding-top: 2%;
+    padding-left: 11%;
+    font-size: 160%;
+    padding-bottom: 8%;
+    display: flex;
+}
+.icons{
+    display: flex;
+    margin-left: 300%;
+
+}
+.maincontainer{
+    background-color: #FCFFFA;
+    height: 100vh;
+    width: 170%;
+}
+
+.body{
+    padding-top: 8%;
+    padding-left: 5%;
+    font-size: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    text-align: left;
+    font-weight: 800;
+    padding-right: 5%;
+}
+.displayicon{
+    display: flex;
+    text-align: end;
+    margin-left: auto;
+}
+.form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Two columns layout */
+    gap: 11%; /* Adjust the gap between columns */
+  }
+
+  .formRow {
+    display: grid;
+    grid-template-columns:60% 60%;
+    gap: 1%;
+    align-items: center;
+  }
+  .formRowButton{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20%;
+    align-items: center;
+    padding-left: 15%;
+    padding-top: 3%;
+  }
+
+  .label {
+    text-align: left;
+    padding-left: 10%;
+    display:flex;
+  }
+  .input_selectgroup{
+    @apply focus:outline-none;
+  }
+  .input_group {
+    @apply flex border rounded-xl border-primary-100 ;
+    position: relative;
+  }
+  .select {
+    @apply w-24 py-1 px-3 border rounded-xl border-primary-100 ;
+  }
+
+  .input_text {
+    @apply w-full py-1 px-4 border rounded-xl focus:outline-none border-none;
+  }
+
+  .button {
+    @apply w-40 bg-gradient-to-r from-buttonleft to-buttonright rounded-md;
+    @apply py-1 text-lg text-backgroundcolor-100;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .descriptionInput {
+    height: 5rem;
+  }
+
+.input_text:focus + *{
+    color: #5BBA6F;
+}
+
+.input_text:not([type=email]) ∼ span:hover *{
+    color: #5BBA6F;
+    cursor: pointer;
+}

@@ -1,0 +1,173 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.Layoutmaincontainer{
+    @apply hidden lg:block h-screen;
+    display: grid;
+    grid-template-columns: 35% 180% ;
+    background-color:#FCFFFA;
+    position: relative;
+    padding-right: 45%;
+    overflow:hidden;
+    width: 100%;
+  }
+  .Layoutcontainer1{
+    @apply flex flex-col items-start ;
+    position: relative;
+    width: 108%;
+    height: 150%;
+    overflow: hidden;
+    display: flex;
+    padding-bottom: 6%;
+    padding-top: 20%;
+    padding-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 0 5px -5px rgba(0, 0, 0.5, 0.5);
+  }
+  .Layoutcontainer2 {
+    @apply flex flex-col items-start;
+    width: 90%;
+    overflow:hidden;
+    background-color: #FCFFFA;
+  }
+
+  .Layoutheading {
+    color: #0a0a0a;
+    font-size: 150%;
+    padding-bottom: 2%;
+    padding-left: 12%;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+
+  .Layoutheading2 {
+    color: #535555;
+    font-size: 100%;
+    padding-bottom: 5%;
+    padding-left: 28%;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+
+  .Layoutbody {
+    color: #535555;
+    font-size: 80%;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 5%;
+  }
+
+  .Layouticons {
+    display: flex;
+    padding-left: 24%;
+    text-align: center;
+    align-content: center;
+  }
+
+  .Layoutbackarrow {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15%;
+    padding-left: 5%;
+  }
+
+  .Layoutarrowicon {
+    width: 15px;
+    height: 15px;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(135deg);
+    margin-right: 5px;
+  }
+
+.forwardbutton {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none; /* Remove the default underline on links */
+    color: #000; /* Set the text color */
+  }
+
+  .forwardbutton:hover {
+    color: #333; /* Change the text color on hover */
+  }
+
+  .arrowicon {
+    width: 15px;
+    height: 15px;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg);
+    margin-left: 5px;
+  }
+
+
+
+.pbody{
+    padding-top: 2%;
+    padding-left: 11%;
+    font-size: 160%;
+    padding-bottom: 8%;
+    display: flex;
+}
+.icons{
+    display: flex;
+    margin-left: 300%;
+
+}
+.maincontainer{
+    background-color: #FCFFFA;
+    height: 100vh;
+    width: 170%;
+}
+
+.body{
+    padding-top: 8%;
+    padding-left: 5%;
+    font-size: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    text-align: left;
+    font-weight: 800;
+    padding-right: 5%;
+}
+.displayicon{
+    display: flex;
+    text-align: end;
+    margin-left: auto;
+}
+.form {
+    display: grid;
+    width: 250%;
+    padding-top: 20%;
+    padding-left: 30%;
+    grid-template-columns: repeat(1, 1fr); /* Two columns layout */
+    gap: 90%;
+  }
+
+  .formRow {
+    @apply rounded-md;
+    height: 160%;
+    display: grid;
+    grid-template-columns:60% 60%;
+    gap: 30%;
+    align-items: center;
+  }
+  .formRow:hover {
+    background-color:#7BCE8D;
+  }
+
+  .label {
+    text-align: left;
+    padding-left: 10%;
+    display:flex;
+  }
+

@@ -1,0 +1,192 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.Layoutmaincontainer{
+    @apply hidden lg:block h-screen;
+    display: grid;
+    grid-template-columns: 35% 180% ;
+    background-color:#FCFFFA;
+    position: relative;
+    padding-right: 45%;
+    overflow:hidden;
+    width: 100%;
+  }
+  .Layoutcontainer1{
+    @apply flex flex-col items-start ;
+    position: relative;
+    width: 108%;
+    height: 150%;
+    overflow: hidden;
+    display: flex;
+    padding-bottom: 6%;
+    padding-top: 20%;
+    padding-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 0 5px -5px rgba(0, 0, 0.5, 0.5);
+  }
+  .Layoutcontainer2 {
+    @apply flex flex-col items-start;
+    width: 90%;
+    overflow:hidden;
+    background-color: #FCFFFA;
+  }
+
+  .Layoutheading {
+    color: #0a0a0a;
+    font-size: 150%;
+    padding-bottom: 2%;
+    padding-left: 12%;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+
+  .Layoutheading2 {
+    color: #535555;
+    font-size: 100%;
+    padding-bottom: 5%;
+    padding-left: 28%;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+
+  .Layoutbody {
+    color: #535555;
+    font-size: 80%;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 5%;
+  }
+
+  .Layouticons {
+    display: flex;
+    padding-left: 24%;
+    text-align: center;
+    align-content: center;
+  }
+
+  .Layoutbackarrow {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15%;
+    padding-left: 5%;
+  }
+
+  .Layoutarrowicon {
+    width: 15px;
+    height: 15px;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(135deg);
+    margin-right: 5px;
+  }
+
+.headingcontainer{
+    width: 160%;
+    height: 15%;
+}
+.pbody{
+    padding-top: 2%;
+    padding-left: 23%;
+    font-size: 160%;
+    padding-bottom: 25%;
+    display: flex;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.maincontainer{
+    background-color: #FCFFFA;
+    height: 100vh;
+    width: 170%;
+    padding-right: 5%;
+}
+
+.body{
+    padding-top: 8%;
+    padding-left: 5%;
+    font-size: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    text-align: left;
+    font-weight: 800;
+    padding-right: 5%;
+}
+.displayicon{
+    display: flex;
+    text-align: end;
+    margin-left: auto;
+}
+.form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Two columns layout */
+    gap: 11%;
+    padding-left: 15%;
+    width: 130%;
+  }
+
+  .formRow {
+    display: grid;
+    grid-template-columns:60% 60%;
+    gap: 1%;
+    align-items: center;
+  }
+  .formRowButton{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+    align-items: center;
+    padding-left: 63%;
+    padding-top: 3%;
+  }
+
+  .label {
+    text-align: left;
+    padding-left: 10%;
+    display:flex;
+  }
+  .input_selectgroup{
+    @apply focus:outline-none;
+  }
+  .input_group {
+    @apply flex border rounded-xl border-primary-100 ;
+    position: relative;
+  }
+  .select {
+    @apply w-full py-1 px-4  border rounded-xl border-primary-100 ;
+    @apply text-accent-50;
+  }
+
+  .input_text {
+    @apply w-full py-1 px-4 border rounded-xl focus:outline-none border-none;
+  }
+
+  .button {
+    @apply w-40 bg-gradient-to-r from-buttonleft to-buttonright rounded-md;
+    @apply py-1 text-lg text-backgroundcolor-100;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .descriptionInput {
+    height: 8rem;
+  }
+
+.input_text:focus + *{
+    color: #5BBA6F;
+}
+
+.input_text:not([type=email]) ∼ span:hover *{
+    color: #5BBA6F;
+    cursor: pointer;
+}

@@ -1,0 +1,167 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.Layoutcontainer {
+  @apply hidden lg:block h-screen;
+  display: grid;
+  grid-template-columns: 35% 180%;
+  background-color: #fcfffa;
+  position: relative;
+  padding-left: 3%;
+  padding-right: 45%;
+  overflow: hidden;
+  width: 100%;
+}
+.Layoutcontainer1 {
+  @apply flex flex-col items-start;
+  position: relative;
+  width: 87%;
+  height: 150%;
+  overflow: hidden;
+  padding-bottom: 6%;
+  padding-top: 20%;
+  margin-left: 12%;
+  margin-right: 2.5%;
+  box-shadow: 5px 0 5px -5px rgba(0, 0, 0.5, 0.5);
+}
+.Layoutcontainer2 {
+  @apply flex flex-col items-start;
+  width: 90%;
+  overflow: hidden;
+  background-color: #fcfffa;
+  height: auto;
+}
+.Layoutcolumn {
+  @apply rounded-md;
+  height: 85%;
+  color: black;
+  margin-top: 2%;
+  color: #191d1c;
+  font-size: 100%;
+  overflow: hidden;
+  width: 160%;
+  max-width: 190px;
+  min-width: 120px;
+  margin: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.pbody {
+  padding-top: 1%;
+  padding-left: 5%;
+  font-size: 160%;
+  padding-bottom: 2%;
+  display: flex;
+}
+.icons {
+  display: flex;
+  margin-left: 50%;
+}
+.newordersTopic {
+  white-space: nowrap;
+}
+
+.maincontainer {
+  @apply h-screen w-screen;
+  background-color: #e3f9d8;
+  display: flex;
+}
+.container2 {
+  background-color: #fcfffa;
+  height: 80%;
+  margin-top: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 75%;
+}
+
+.today {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: Poppins;
+  color: #1b1d1b;
+  margin-top: 1%;
+  padding-left: 2%;
+}
+
+.datepicker {
+  position: absolute;
+  margin-top: 1%;
+  padding-left: 12%;
+}
+
+.lineDiv {
+  position: relative;
+  border-top: 1px solid #1b1d1b;
+  box-sizing: border-box;
+  width: 100%;
+  height: 1px;
+}
+
+.tableH {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0.7;
+  text-align: left;
+  font-size: 18px;
+  color: #1b1d1b;
+  font-family: Poppins;
+}
+.tableHeading1 {
+  padding-top: 3%;
+  padding-right: 6rem;
+  padding-left: 3rem;
+  white-space: nowrap;
+  top: 12rem;
+}
+.tableHeadings2 {
+  padding-top: 3%;
+  padding-right: 2rem;
+  white-space: nowrap;
+}
+.tableHeadings {
+  padding-top: 3%;
+  padding-right: 6rem;
+  white-space: nowrap;
+}
+
+.lineDiv1 {
+  position: relative;
+  border-top: 1px solid rgba(91, 186, 111, 0.25);
+  box-sizing: border-box;
+  width: 100%;
+  height: 1px;
+}
+.linebreak {
+  margin-top: 3rem;
+}
+.td1 {
+  padding-top: 2rem;
+  padding-left: 3rem;
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Quicksand;
+  color: #1b1d1b;
+  text-align: left;
+}
+
+.td {
+  padding-top: 2rem;
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Quicksand;
+  color: #1b1d1b;
+  text-align: left;
+}

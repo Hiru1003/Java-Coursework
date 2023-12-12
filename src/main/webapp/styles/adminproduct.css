@@ -1,0 +1,145 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.Layoutcontainer {
+  @apply hidden lg:block h-screen;
+  display: grid;
+  grid-template-columns: 35% 180%;
+  background-color: #fcfffa;
+  position: relative;
+  padding-left: 3%;
+  padding-right: 45%;
+  overflow: hidden;
+  width: 100%;
+}
+.Layoutcontainer1 {
+  @apply flex flex-col items-start;
+  position: relative;
+  width: 87%;
+  height: 150%;
+  overflow: hidden;
+  padding-bottom: 6%;
+  padding-top: 20%;
+  margin-left: 12%;
+  margin-right: 2.5%;
+  box-shadow: 5px 0 5px -5px rgba(0, 0, 0.5, 0.5);
+}
+.Layoutcontainer2 {
+  @apply flex flex-col items-start;
+  width: 90%;
+  overflow: hidden;
+  background-color: #fcfffa;
+  height: auto;
+}
+.Layoutcolumn {
+  @apply rounded-md;
+  height: 85%;
+  color: black;
+  margin-top: 2%;
+  color: #191d1c;
+  font-size: 100%;
+  overflow: hidden;
+  width: 160%;
+  max-width: 190px;
+  min-width: 120px;
+  margin: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.maincontainer {
+  @apply h-screen w-screen;
+  background-color: #e3f9d8;
+  display: flex;
+}
+.pbody {
+  padding-top: 1%;
+  padding-left: 5%;
+  font-size: 160%;
+  padding-bottom: 2%;
+  display: flex;
+}
+.icons {
+  display: flex;
+  margin-left: 52%;
+}
+.container2 {
+  background-color: #fcfffa;
+  height: 80%;
+  display: flex;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 75%;
+}
+.displayicon {
+  display: flex;
+  text-align: end;
+  margin-left: auto;
+}
+.form {
+  display: grid;
+  height: 93%;
+  grid-template-columns: repeat(1, 1fr); /* Two columns layout */
+  gap: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 70%;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 60% 60%;
+  gap: 10%;
+  align-items: center;
+}
+.formRowButton {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10%;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.label {
+  text-align: left;
+  padding-left: 10%;
+  display: flex;
+}
+.text {
+  color: black;
+  font-size: 80%;
+  text-align: left;
+  padding-bottom: 2%;
+}
+.textheading {
+  color: black;
+  font-size: 120%;
+  text-align: left;
+  padding-bottom: 2%;
+}
+.textspan {
+  color: #96e071;
+  font-size: 100%;
+  text-align: left;
+  padding-bottom: 2%;
+}
+.button {
+  @apply w-40 bg-primary-100 rounded-md;
+  @apply py-1 text-lg text-backgroundcolor-100;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.button2 {
+  @apply w-40 rounded-md;
+  @apply py-1 text-lg;
+  color: #96e071;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: #96e071 1px solid;
+}
